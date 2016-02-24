@@ -1,6 +1,6 @@
 # Spring Cloud Service Connector for Amazon S3 Services
 
-This project provides a [Spring Cloud](https://github.com/spring-projects/spring-cloud) service connector for Amazon S3 services brokered by the Cloud Foundry [s3-cf-service-broker](https://github.com/davidehringer/s3-cf-service-broker).
+This project provides a [Spring Cloud](https://github.com/spring-projects/spring-cloud) service connector for Amazon S3 services brokered by the Cloud Foundry [s3-cf-service-broker](https://github.com/cloudfoundry-community/s3-cf-service-broker).
 
 ## Example Usage
 
@@ -8,7 +8,7 @@ Add the library to your project:
 
 ```
 <dependency>
-	<groupId>org.cloudfoundry.community</groupId>
+	<groupId>com.dingotiles</groupId>
 	<artifactId>spring-cloud-s3-service-connector</artifactId>
 	<version>1.0.0</version>
 </dependency>
@@ -28,6 +28,3 @@ S3ServiceInfo serviceInfo = (S3ServiceInfo) cloud.getServiceInfo("my-s3-service"
 ...  serviceInfo.getBucket();
 ```
 
-## Continuous Integration
-
-The CI server for the project is hosted at https://gaptap.atlassian.net/builds/browse/CFC-SPRIN.
