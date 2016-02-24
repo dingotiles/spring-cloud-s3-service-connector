@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.cloudfoundry.community.service.storage;
+package com.dingotiles.cloudfoundry.connector.s3.info;
 
 import org.springframework.cloud.service.BaseServiceInfo;
 import org.springframework.cloud.service.ServiceInfo;

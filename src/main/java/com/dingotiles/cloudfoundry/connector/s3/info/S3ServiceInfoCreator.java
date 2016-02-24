@@ -13,10 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.cloudfoundry.community.service.storage;
+package com.dingotiles.cloudfoundry.connector.s3.info;
 
 import java.util.Map;
 
+import com.dingotiles.cloudfoundry.connector.s3.info.S3ServiceInfo;
 import org.springframework.cloud.cloudfoundry.CloudFoundryServiceInfoCreator;
 import org.springframework.cloud.cloudfoundry.Tags;
 
