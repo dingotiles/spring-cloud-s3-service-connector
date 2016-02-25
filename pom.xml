@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.dingotiles</groupId>
+  <groupId>com.dingotiles.connectors</groupId>
   <artifactId>spring-cloud-s3-service-connector</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>Spring Cloud Service Connector for Amazon S3 Services</name>
   <description>This project provides a Spring Cloud service connector for Amazon S3 services brokered by the Cloud Foundry s3-cf-service-broker.</description>
   <url>https://github.com/dingotiles/spring-cloud-s3-service-connector</url>
@@ -12,11 +12,15 @@
     <url>https://github.com/dingotiles</url>
   </organization>
 
-  <inceptionYear>2016</inceptionYear>
+  <inceptionYear>2015</inceptionYear>
   <developers>
     <developer>
       <name>Justin Carter</name>
       <organizationUrl>https://github.com/dingotiles</organizationUrl>
+    </developer>
+    <developer>
+      <name>David Ehringer</name>
+      <organizationUrl>https://github.com/davidehringer</organizationUrl>
     </developer>
   </developers>
   <licenses>
@@ -79,8 +83,6 @@
         <version>2.5</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <useReleaseProfile>false</useReleaseProfile>
-          <releaseProfiles>release</releaseProfiles>
           <goals>deploy</goals>
         </configuration>
       </plugin>
@@ -113,7 +115,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
-        <version>2.2.1</version>
+        <version>3.0.0</version>
         <executions>
           <execution>
             <id>attach-sources</id>
