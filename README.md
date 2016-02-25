@@ -8,9 +8,9 @@ Add the library to your project:
 
 ```
 <dependency>
-	<groupId>com.dingotiles</groupId>
+	<groupId>com.dingotiles.connectors</groupId>
 	<artifactId>spring-cloud-s3-service-connector</artifactId>
-	<version>1.0.0</version>
+	<version>0.1.1</version>
 </dependency>
 ```
 
