@@ -1,6 +1,6 @@
 # Spring Cloud Service Connector for Amazon S3 Services
 
-This project provides a [Spring Cloud](https://github.com/spring-projects/spring-cloud) service connector for Amazon S3 services brokered by the Cloud Foundry [s3-cf-service-broker](https://github.com/cloudfoundry-community/s3-cf-service-broker).
+This project provides a [Spring Cloud](https://github.com/spring-cloud/spring-cloud-connectors) service connector for Amazon S3 services brokered by the Cloud Foundry [s3-cf-service-broker](https://github.com/cloudfoundry-community/s3-cf-service-broker).
 
 ## Example Usage
 
